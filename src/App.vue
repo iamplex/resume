@@ -1,5 +1,5 @@
 <template>
-  <main p="x-6 y-4">
+  <main p="x-10 y-6">
     <router-view />
   </main>
 </template>
