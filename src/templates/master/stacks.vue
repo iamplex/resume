@@ -9,6 +9,6 @@ const { stacks } = defineProps<Props>()
 <template>
   <div>
     <Header title="专业技能" />
-    <Highlights :data="[stacks.join('、'), '英语（读写）']" />
+    <Highlights :data="[stacks.join('、')]" />
   </div>
 </template>
