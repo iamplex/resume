@@ -104,7 +104,7 @@ export default {
 
   educations: [
     {
-      institution: ' <a href="https://segmentfault.com/a/1190000024546228?sort=votes" target="_blank">AWS Hackathon Online 2020</a>',
+      institution: '<a href="https://segmentfault.com/a/1190000024546228?sort=votes" target="_blank">AWS Hackathon Online 2020</a>',
       area: '',
       level: '第一名',
       start: '2020.07',
