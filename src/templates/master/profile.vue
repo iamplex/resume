@@ -25,9 +25,9 @@ const { profile } = defineProps<Props>()
     <div>
       <span>{{ profile.tel }}</span>
       <span> | </span>
-      <a href="" target="_blank" color-blue>{{ profile.email }}</a>
+      <a :href="`mailto:${profile.email}`" target="_blank" color-blue>{{ profile.email }}</a>
       <span> | </span>
-      <a href="" target="_blank" color-blue>{{ profile.github }}</a>
+      <a :href="`https://${profile.github}`" target="_blank" color-blue>{{ profile.github }}</a>
     </div>
   </div>
 </template>
