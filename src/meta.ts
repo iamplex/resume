@@ -37,7 +37,7 @@ export default {
       end: '2018.05',
       highlights: [
         '负责新技术的预研并提供研究成果demo及解决⽅案',
-        '参与部⻔内外多个中后台业务系统的开发⼯作以及前端技术⽅案的审核',
+        '参与部门内外多个toB中后台业务系统的开发工作及前端技术⽅案的审核',
       ],
     },
     {
@@ -47,7 +47,7 @@ export default {
       start: '2014.05',
       end: '2017.03',
       highlights: [
-        '参与多个政府中后台业务的开发及优化工作',
+        '参与多个政府toB中后台业务系统的开发及优化工作',
       ],
     },
   ],
@@ -82,7 +82,7 @@ export default {
       end: '2018.05',
       highlights: [
         '独⽴完成绘图功能的需求收集、整理、设计、Canvas技术的预研学习及开发⼯作',
-        '核⼼思路参考了 <a href="https://github.com/openlayers/openlayers" target="_blank">OpenLayers</a> 的部分源码，并在调研过程中为该项⽬贡献了 <a href="https://github.com/openlayers/openlayers/pull/8396" target="_blank">Pull Request</a>',
+        '核⼼思路参考了 <a href="https://github.com/openlayers/openlayers" target="_blank">OpenLayers</a> 的部分源码，并在调研过程中为该项⽬贡献了 <a href="https://github.com/openlayers/openlayers/pull/8396" target="_blank">PR</a>',
         '提供点、线、多边形及部分⾃定义图形等基本的绘制能⼒',
         '顺利将基于WPF或Qt等桌⾯端技术的绘图模块过度到Web端',
       ],
