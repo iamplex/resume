@@ -9,7 +9,7 @@ export default {
 
   works: [
     {
-      company: '南宁⻨特利有限公司 · 研发部',
+      company: 'Material Ltd.',
       position: '前端开发工程师',
       location: '南宁',
       start: '2020.09',
@@ -30,7 +30,7 @@ export default {
       ],
     },
     {
-      company: '北京信路威科技股份有限公司 · 平台部',
+      company: '北京信路威科技股份有限公司',
       position: '前端开发⼯程师',
       location: '南宁',
       start: '2017.03',
@@ -41,7 +41,7 @@ export default {
       ],
     },
     {
-      company: '⼴⻄慧云信息技术有限公司 · 研发部',
+      company: '⼴⻄慧云信息技术有限公司',
       position: '前端开发⼯程师',
       location: '南宁',
       start: '2014.05',
