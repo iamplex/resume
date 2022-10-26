@@ -42,7 +42,7 @@ export default {
     },
     {
       company: '⼴⻄慧云信息技术有限公司',
-      position: '前端开发⼯程师',
+      position: 'C#开发⼯程师',
       location: '南宁',
       start: '2014.05',
       end: '2017.03',
