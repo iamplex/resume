@@ -11,6 +11,6 @@ const { title } = defineProps<Props>()
     <div font-bold>
       {{ title }}
     </div>
-    <div m-y-1 w-screen h1px bg-light-9 />
+    <div m-y-1 h1px bg-light-9 />
   </div>
 </template>
