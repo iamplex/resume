@@ -7,10 +7,10 @@ const { title } = defineProps<Props>()
 </script>
 
 <template>
-  <div>
+  <div m-t-6>
     <div font-bold>
       {{ title }}
     </div>
-    <div m-y-1 h1px bg-light-9 />
+    <div m-y-2 h1px bg-light-9 />
   </div>
 </template>

@@ -2,12 +2,22 @@ export default {
   profile: {
     name: '潘敬',
     birthday: '1990-12',
-    tel: '15507711405',
+    tel: '155-0771-1405',
     email: 'panjing.binary@gmail.com',
     github: 'github.com/iamplex',
   },
 
   works: [
+    {
+      company: '南宁市半岛科技',
+      position: '前端开发工程师',
+      location: '远程',
+      start: '2022.11',
+      end: '2023.02',
+      highlights: [
+        '负责法拍小程序的维护',
+      ],
+    },
     {
       company: 'Material Ltd.',
       position: '前端开发工程师',
@@ -15,7 +25,8 @@ export default {
       start: '2020.09',
       end: '2022.05',
       highlights: [
-        '负责越南⽣活服务公众号及政务OA的维护及开发⼯作',
+        '使用Vue3参与越南⽣活服务公众号及政务OA的开发',
+        '使用GitLab-Runner实现CI/CD，提高交付及部署质量',
       ],
     },
     {
@@ -25,7 +36,7 @@ export default {
       start: '2018.09',
       end: '2019.07',
       highlights: [
-        '负责⻋险理赔服务公众号的开发⼯作',
+        '领导⻋险理赔服务公众号的开发工作',
         '推进汽⻋保险、汽⻋配件事业部前后端分离架构的落地',
       ],
     },
@@ -37,7 +48,8 @@ export default {
       end: '2018.05',
       highlights: [
         '负责新技术的预研并提供研究成果demo及解决⽅案',
-        '参与部门内外多个toB中后台业务系统的开发工作及前端技术⽅案的审核',
+        '负责多个地市的交通数据可视化大屏开发',
+        '使用Vue2参与多个部门toB中后台系统的开发',
       ],
     },
     {
@@ -47,7 +59,7 @@ export default {
       start: '2014.05',
       end: '2017.03',
       highlights: [
-        '参与多个政府toB中后台业务系统的开发及优化工作',
+        '使用C#及jQuery参与多个政府toB中后台系统的开发',
       ],
     },
   ],
@@ -84,7 +96,7 @@ export default {
         '独⽴完成绘图功能的需求收集、整理、设计、Canvas技术的预研学习及开发⼯作',
         '核⼼思路参考了 <a href="https://github.com/openlayers/openlayers" target="_blank">OpenLayers</a> 的部分源码，并在调研过程中为该项⽬贡献了 <a href="https://github.com/openlayers/openlayers/pull/8396" target="_blank">PR</a>',
         '提供点、线、多边形及部分⾃定义图形等基本的绘制能⼒',
-        '顺利将基于WPF或Qt等桌⾯端技术的绘图模块过度到Web端',
+        '使用Canvas顺利将基于WPF或Qt等桌⾯端技术的绘图模块过度到Web端',
       ],
     },
     {
@@ -103,16 +115,9 @@ export default {
 
   educations: [
     {
-      institution: '<a href="https://segmentfault.com/a/1190000024546228?sort=votes" target="_blank">AWS Hackathon Online 2020</a>',
-      area: '',
-      level: '第一名',
-      start: '2020.07',
-      end: '2020.09',
-    },
-    {
       institution: '⼴⻄师范⼤学',
       area: '⼼理学',
-      level: '本科',
+      level: '函授本科',
       start: '2015.03',
       end: '2017.06',
     },
@@ -125,5 +130,14 @@ export default {
     },
   ],
 
-  stacks: ['TypeScript', 'ECMAScript 6', 'Canvas', 'Vue', 'UnoCSS', 'Vitest', 'Element-Plus', 'Lua'],
+  stacks: [
+    'TypeScript',
+    'ECMAScript 6',
+    'Canvas',
+    'SVG',
+    'Vue',
+    'UnoCSS',
+    'Vitest',
+    'Element-Plus',
+  ],
 }

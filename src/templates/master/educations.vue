@@ -16,10 +16,10 @@ const { educations } = defineProps<Props>()
 
 <template>
   <div>
-    <Header title="教育背景 & 奖项" />
+    <Header title="教育背景" />
     <div v-for="{ institution, area, level, start, end } in educations" :key="institution" m-y-1>
       <div flex justify-between>
-        <div v-html="`${institution} ${area && `· ${area}`} （${level}）`" />
+        <div>{{ institution }} · {{ area }}（{{ level}}）</div>
         <div>
           <span>{{ start }}</span>
           <span> - </span>

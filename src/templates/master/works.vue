@@ -18,7 +18,7 @@ const { works } = defineProps<Props>()
 <template>
   <div>
     <Header title="工作经历" />
-    <div v-for="{ company, position, location, start, end, highlights } in works" :key="company" m-y-2>
+    <div v-for="{ company, position, location, start, end, highlights } in works" :key="company" m-y-3>
       <div flex justify-between>
         <div>{{ company }}（{{ position }}）</div>
         <div>
