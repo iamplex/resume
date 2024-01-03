@@ -7,11 +7,8 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Date: typeof import('./src/components/Date.vue')['default']
     Duration: typeof import('./src/components/Duration.vue')['default']
     Header: typeof import('./src/components/Header.vue')['default']
     Highlights: typeof import('./src/components/Highlights.vue')['default']
-    RouterLink: typeof import('vue-router')['RouterLink']
-    RouterView: typeof import('vue-router')['RouterView']
   }
 }
