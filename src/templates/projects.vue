@@ -20,11 +20,7 @@ const { projects } = defineProps<Props>()
     <div v-for="{ name, summary, start, end, highlights } in projects" :key="name" m-y-2>
       <div flex justify-between>
         <div v-html="name" />
-        <div>
-          <span>{{ start }}</span>
-          <span> - </span>
-          <span>{{ end }}</span>
-        </div>
+        <Duration :start="start" :end="end" />
       </div>
       <div text-size-xs color-gray-4>
         {{ summary }}

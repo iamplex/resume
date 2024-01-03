@@ -24,9 +24,7 @@ const { works } = defineProps<Props>()
         <div>
           <span>{{ location }}</span>
           <span> · </span>
-          <span>{{ start }}</span>
-          <span> - </span>
-          <span>{{ end }}</span>
+          <Duration :start="start" :end="end" />
         </div>
       </div>
       <Highlights :data="highlights" />
