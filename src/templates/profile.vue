@@ -15,7 +15,7 @@ const { profile } = defineProps<Props>()
 </script>
 
 <template>
-  <div flex justify-between items-baseline>
+  <div flex items-baseline justify-between>
     <div>
       <span class="text-size-2xl font-bold">
         {{ profile.name }}
