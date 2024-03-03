@@ -17,10 +17,14 @@ const { educations } = defineProps<Props>()
 <template>
   <div>
     <Header title="教育背景" />
-    <div v-for="{ institution, area, level, start, end } in educations" :key="institution" m-y-1>
-      <div flex justify-between>
-        <div>{{ institution }} · {{ area }}（{{ level }}）</div>
-        <Duration :start="start" :end="end" />
+    <div
+      v-for="{ institution, area, level, start, end } in educations"
+      :key="institution"
+      my-4 flex
+    >
+      <Duration :start="start" :end="end" mr-8 />
+      <div>
+        {{ institution }} · {{ area }} ({{ level }})
       </div>
     </div>
   </div>

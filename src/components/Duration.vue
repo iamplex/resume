@@ -8,10 +8,16 @@ const { start, end } = defineProps<Props>()
 </script>
 
 <template>
-  <span v-if="!end">{{ start }}</span>
-  <span v-else>
-    <span>{{ start }}</span>
-    <span> - </span>
-    <span>{{ end }}</span>
-  </span>
+  <div
+    min-w-32
+    ws-nowrap
+    text-right
+  >
+    <span v-if="!end">{{ start }}</span>
+    <span v-else flex gap-1>
+      <span>{{ start }}</span>
+      <span>-</span>
+      <span>{{ end }}</span>
+    </span>
+  </div>
 </template>
