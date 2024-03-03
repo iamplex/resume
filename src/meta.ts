@@ -15,7 +15,8 @@ export default {
       start: '2022.11',
       end: '2023.02',
       highlights: [
-        '负责法拍小程序的维护',
+        '使用ThreeJS负责 <a href="https://codesandbox.io/p/sandbox/vr-mhfbr3" target="_blank">VR全景</a> 效果的调研',
+        '负责 <p style="display: inline; color: #9ca3af; font-style: italic;">广西法院法拍、魔猪租赁、芝麻KM自助售卖柜</p> 等小程序的维护',
       ],
     },
     {
@@ -26,7 +27,7 @@ export default {
       end: '2022.05',
       highlights: [
         '使用Vue3参与越南生活服务公众号及政务OA的开发',
-        '使用GitLab-Runner实现CI/CD，提高交付及部署质量',
+        '使用GitLab-Runner实现CI/CD，改善交付流程及部署质量',
       ],
     },
     {
@@ -49,7 +50,7 @@ export default {
       highlights: [
         '负责新技术的探索和攻克，并提供研究成果demo及解决⽅案',
         '负责多个地市的交通数据可视化大屏开发',
-        '使用Vue2参与多个部门toB中后台系统的开发',
+        '使用Vue2参与 <p style="display: inline; color: #9ca3af; font-style: italic;">高校人脸识别、高清打逃、城市级停车</p> 等toB中后台系统的开发',
       ],
     },
     {
@@ -59,7 +60,9 @@ export default {
       start: '2014.05',
       end: '2017.03',
       highlights: [
-        '使用C#及jQuery参与多个政府toB中后台系统的开发',
+        '负责微信支付服务(.net)、漫道短信通知服务的集成',
+        '协助硬件部完成海康摄像头在web端的集成、调试、播放等工作',
+        '使用C#及jQuery参与 <p style="display: inline; color: #9ca3af; font-style: italic;">中国-东盟技术转移中心、连连赚互联网金融平台、桂林养生云服务平台</p> 等toB政府项目的开发',
       ],
     },
   ],
@@ -83,7 +86,7 @@ export default {
       highlights: [
         '带领3人团队负责车险理赔服务的前端开发工作以及移动端适配方案的调研',
         '适配方案的实施步骤参考了 <a href="https://www.w3cplus.com/mobile/vw-layout-in-vue.html" target="_blank">如何在Vue项目中使用vw实现移动端适配</a>',
-        '通过px2vw的适配方案，开发过程无需考虑适配问题，只需将设计稿转为代码即可',
+        '通过px2vw的适配方案，开发过程不需要考虑适配问题，直接将设计稿转为代码即可',
         '项目提前在11月底成功上线',
       ],
     },
@@ -100,7 +103,7 @@ export default {
       ],
     },
     {
-      name: 'P2P连连赚互联网金融平台前端优化',
+      name: '连连赚互联网金融平台前端优化',
       summary: '随着用户量的不断上升，访问量处于高峰期的交易期间响应速度明显下降，上级希望在不对服务器扩容的情况下能保证用户的访问速度',
       start: '2016.01',
       end: '2016.02',
@@ -134,8 +137,8 @@ export default {
     'TypeScript',
     'ECMAScript 6',
     'Canvas',
-    'SVG',
-    'Vue',
+    'Vue3',
+    'Nuxt3',
     'UnoCSS',
     'Vitest',
     'Element-Plus',
