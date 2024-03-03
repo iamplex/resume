@@ -1,7 +1,7 @@
 export default {
   profile: {
     name: '潘敬',
-    birthday: '1990-12',
+    birthday: '1990 — 12',
     tel: '155-0771-1405',
     email: 'panjing.binary@gmail.com',
     github: 'github.com/iamplex',

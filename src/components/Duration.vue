@@ -16,7 +16,7 @@ const { start, end } = defineProps<Props>()
     <span v-if="!end">{{ start }}</span>
     <span v-else flex gap-1>
       <span>{{ start }}</span>
-      <span>-</span>
+      <span> — </span>
       <span>{{ end }}</span>
     </span>
   </div>
