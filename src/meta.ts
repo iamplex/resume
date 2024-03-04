@@ -9,13 +9,12 @@ export default {
 
   works: [
     {
-      company: '南宁市半岛科技',
+      company: '南宁市半岛科技有限公司',
       position: '前端开发工程师',
       location: '远程',
       start: '2022.11',
       end: '2023.02',
       highlights: [
-        '使用ThreeJS负责 <a href="https://codesandbox.io/p/sandbox/vr-mhfbr3" target="_blank">VR全景</a> 效果的调研',
         '负责 <p style="display: inline; color: #9ca3af; font-style: italic;">广西法院法拍、魔猪租赁、芝麻KM自助售卖柜</p> 等小程序的维护',
       ],
     },
