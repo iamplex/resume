@@ -133,8 +133,8 @@ export default {
   ],
 
   stacks: [
-    'TypeScript',
     'ECMAScript 6',
+    'TypeScript',
     'Canvas',
     'Vue3',
     'Nuxt3',
