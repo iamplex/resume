@@ -90,7 +90,7 @@ export default {
       ],
     },
     {
-      name: '<a href="https://github.com/iamplex/simple-drawing" target="_blank">SimpleDrawing</a>',
+      name: '<a href="https://github.com/iamplex/simple-drawing" target="_blank">simple-drawing</a>',
       summary: '多个部门的客户端项目统一由WPF或Qt升级为Web端，需要将一个用于辅助OpenCV校对识别的绘图模块在Web端中100%还原',
       start: '2018.04',
       end: '2018.05',
